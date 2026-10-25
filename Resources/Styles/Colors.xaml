@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Note: For Android please see also Platforms\Android\Resources\values\colors.xml -->
+
+    <!-- ======================================================== -->
+    <!-- PRIMARY THEME COLORS (Bảng màu phối theo tone #00F1D9)    -->
+    <!-- Đã loại bỏ hoàn toàn các mã màu tím mặc định của MAUI    -->
+    <!-- ======================================================== -->
+
+    <!-- Màu chính: Tông Teal đậm cho Light Mode (đạt chuẩn tương phản WCAG 4.6:1 khi dùng chữ trắng White) -->
+    <Color x:Key="Primary">#008276</Color>
+
+    <!-- Màu nút/nổi bật ở Dark Mode: Dùng chính màu neon #00F1D9 rực rỡ trên nền tối -->
+    <Color x:Key="PrimaryDark">#00F1D9</Color>
+
+    <!-- Màu chữ hiển thị trên nền nút PrimaryDark (#00F1D9) ở Dark Mode (tương phản cực nét 12.8:1) -->
+    <Color x:Key="PrimaryDarkText">#032421</Color>
+
+    <!-- Màu phụ: Tông bạc hà pastel mát nhẹ (thay thế màu tím nhạt #DFD8F7) -->
+    <Color x:Key="Secondary">#D4F8F4</Color>
+
+    <!-- Màu chữ/tiêu đề thanh điều hướng ở Dark Mode (thay thế tím #9880e5) -->
+    <Color x:Key="SecondaryDarkText">#00F1D9</Color>
+
+    <!-- Màu bậc ba: Xanh ngọc sẫm sang trọng (thay thế tím sẫm #2B0B98) -->
+    <Color x:Key="Tertiary">#004D47</Color>
+
+    <!-- ======================================================== -->
+    <!-- ACCENT COLORS (Màu điểm nhấn - Neon Cyan chủ đạo #00F1D9) -->
+    <!-- ======================================================== -->
+    <Color x:Key="Accent">#00F1D9</Color>
+    <Color x:Key="AccentDark">#00B8A5</Color>
+    <Color x:Key="AccentLight">#E0FAF7</Color>
+    <Color x:Key="AccentText">#003833</Color>
+
+    <Color x:Key="White">White</Color>
+    <Color x:Key="Black">Black</Color>
+
+    <!-- Thay thế màu hồng tím Magenta #D600AA (dùng cho Tab bar active / Navigation) -->
+    <Color x:Key="Magenta">#008276</Color>
+
+    <!-- Thay thế màu tím đen MidnightBlue #190649 (dùng cho Headline & SubHeadline) bằng Obsidian Cyan sang trọng -->
+    <Color x:Key="MidnightBlue">#0B2023</Color>
+
+    <!-- Thay thế OffBlack #1f1f1f bằng nền Slate Dark phảng phất sắc lạnh cực kỳ ăn ý với #00F1D9 -->
+    <Color x:Key="OffBlack">#0F171A</Color>
+
+    <!-- Grayscale neutrals -->
+    <Color x:Key="Gray100">#E1E1E1</Color>
+    <Color x:Key="Gray200">#C8C8C8</Color>
+    <Color x:Key="Gray300">#ACACAC</Color>
+    <Color x:Key="Gray400">#919191</Color>
+    <Color x:Key="Gray500">#6E6E6E</Color>
+    <Color x:Key="Gray600">#404040</Color>
+    <Color x:Key="Gray900">#212121</Color>
+    <Color x:Key="Gray950">#141414</Color>
+
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource Accent}"/>
+    <SolidColorBrush x:Key="AccentDarkBrush" Color="{StaticResource AccentDark}"/>
+    <SolidColorBrush x:Key="AccentLightBrush" Color="{StaticResource AccentLight}"/>
+    <SolidColorBrush x:Key="AccentTextBrush" Color="{StaticResource AccentText}"/>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+
+    <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}"/>
+    <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}"/>
+    <SolidColorBrush x:Key="Gray300Brush" Color="{StaticResource Gray300}"/>
+    <SolidColorBrush x:Key="Gray400Brush" Color="{StaticResource Gray400}"/>
+    <SolidColorBrush x:Key="Gray500Brush" Color="{StaticResource Gray500}"/>
+    <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}"/>
+    <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
+    <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}"/>
+</ResourceDictionary>
